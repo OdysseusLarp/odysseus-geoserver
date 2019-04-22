@@ -37,7 +37,7 @@
     <queueType>UNBOUNDED</queueType>
     <imageIOCacheThreshold>102400</imageIOCacheThreshold>
   </coverageAccess>
-  <updateSequence>1612</updateSequence>
+  <updateSequence>1625</updateSequence>
   <featureTypeCacheSize>0</featureTypeCacheSize>
   <globalServices>true</globalServices>
   <xmlPostRequestLogBufferSize>1024</xmlPostRequestLogBufferSize>

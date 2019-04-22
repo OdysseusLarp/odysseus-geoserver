@@ -1,0 +1,10 @@
+*.properties
+data_dir/csw/
+geoserver.log
+*.log.db
+data_dir/printing/
+data_dir/security/usergroup/default/users.xml.orig
+data_dir/wps.xml
+data_dir/security/usergroup/default/users.xml
+data_dir/logs
+*.lock.db

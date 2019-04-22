@@ -695,7 +695,7 @@
               <Opacity>
                 <ogc:PropertyName>1</ogc:PropertyName>
               </Opacity>			
-              <Size>3</Size>
+              <Size>6</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>	
@@ -718,7 +718,7 @@
               <Opacity>
                 <ogc:PropertyName>1</ogc:PropertyName>
               </Opacity>			
-              <Size>5</Size>
+              <Size>8</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>		
@@ -741,7 +741,7 @@
               <Opacity>
                 <ogc:PropertyName>1</ogc:PropertyName>
               </Opacity>				
-              <Size>7</Size>
+              <Size>10</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>
@@ -764,7 +764,7 @@
               <Opacity>
                 <ogc:PropertyName>1</ogc:PropertyName>
               </Opacity>			
-              <Size>10</Size>
+              <Size>12</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>			

@@ -1,0 +1,42 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--2e770897:167cc442dcf:-7fec</id>
+  <name>starmap_object</name>
+  <mode>SINGLE</mode>
+  <title>starmap_object</title>
+  <workspace>
+    <id>WorkspaceInfoImpl-65f01602:1678c7d20d1:-8000</id>
+  </workspace>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--2e770897:167cc442dcf:-7fed</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--2e770897:167cc442dcf:-7fe6</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-58b0141:16a43ae16aa:-69c1</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--2e770897:167cc442dcf:-7ff0</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-557aeb68:16814960e59:-6602</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--2e770897:167cc442dcf:-7ff0</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>-1.9916423689999998E7</minx>
+    <maxx>2.001132236E7</maxx>
+    <miny>-1.9824744750000007E7</miny>
+    <maxy>1.994774903999999E7</maxy>
+    <crs class="projected">EPSG:3857</crs>
+  </bounds>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layerGroup>

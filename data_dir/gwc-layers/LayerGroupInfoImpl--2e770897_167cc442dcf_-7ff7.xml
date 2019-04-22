@@ -1,0 +1,32 @@
+<GeoServerTileLayer>
+  <id>LayerGroupInfoImpl--2e770897:167cc442dcf:-7ff7</id>
+  <enabled>true</enabled>
+  <inMemoryCached>true</inMemoryCached>
+  <name>odysseus:starmap_bg_star</name>
+  <mimeFormats>
+    <string>image/png8</string>
+  </mimeFormats>
+  <gridSubsets>
+    <gridSubset>
+      <gridSetName>EPSG:3857</gridSetName>
+      <extent>
+        <coords>
+          <double>-2.003750834E7</double>
+          <double>-2.003750834E7</double>
+          <double>2.003750834E7</double>
+          <double>2.003750834E7</double>
+        </coords>
+      </extent>
+      <zoomStart>0</zoomStart>
+      <zoomStop>6</zoomStop>
+    </gridSubset>
+  </gridSubsets>
+  <metaWidthHeight>
+    <int>20</int>
+    <int>20</int>
+  </metaWidthHeight>
+  <expireCache>0</expireCache>
+  <expireClients>0</expireClients>
+  <parameterFilters/>
+  <gutter>100</gutter>
+</GeoServerTileLayer>

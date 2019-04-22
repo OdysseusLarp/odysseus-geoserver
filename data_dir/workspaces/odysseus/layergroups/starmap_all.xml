@@ -1,0 +1,44 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-557aeb68:16814960e59:-3e02</id>
+  <name>starmap_all</name>
+  <mode>SINGLE</mode>
+  <title>starmap_all</title>
+  <workspace>
+    <id>WorkspaceInfoImpl-65f01602:1678c7d20d1:-8000</id>
+  </workspace>
+  <publishables>
+    <published type="layerGroup">
+      <id>LayerGroupInfoImpl--2e770897:167cc442dcf:-7ff7</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-58b0141:16a43ae16aa:-69c1</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-2e1170c6:169da1ee64b:-42d4</id>
+    </published>
+    <published type="layerGroup">
+      <id>LayerGroupInfoImpl--2e770897:167cc442dcf:-7ff1</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-557aeb68:16814960e59:-3e3</id>
+    </published>
+  </publishables>
+  <styles>
+    <style/>
+    <style>
+      <id>StyleInfoImpl--2e770897:167cc442dcf:-7ff0</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-557aeb68:16814960e59:-6602</id>
+    </style>
+    <style/>
+    <style/>
+  </styles>
+  <bounds>
+    <minx>-2.0226642E7</minx>
+    <maxx>2.0226642E7</maxx>
+    <miny>-2.0249458E7</miny>
+    <maxy>2.0249458E7</maxy>
+    <crs class="projected">EPSG:3857</crs>
+  </bounds>
+</layerGroup>

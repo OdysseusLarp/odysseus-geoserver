@@ -1,0 +1,15 @@
+<layer>
+  <name>starmap_jump_range</name>
+  <id>LayerInfoImpl-e0b25be:1694d9c495a:-29b1</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-e0b25be:1694d9c495a:-29ae</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-e0b25be:1694d9c495a:-29b2</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

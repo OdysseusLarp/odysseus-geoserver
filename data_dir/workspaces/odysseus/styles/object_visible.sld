@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<StyledLayerDescriptor version="1.0.0"
+  xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
+  xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc"
+  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <NamedLayer>
+    <Name>object_visible</Name>
+    <UserStyle>
+      <Title>object_visible</Title>
+      <FeatureTypeStyle>
+        <Rule>
+          <Title>planets_zoom5</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+             <ogc:PropertyName>celestial_body</ogc:PropertyName>
+             <ogc:Literal>planet</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <MinScaleDenominator>4687500</MinScaleDenominator>          
+          <MaxScaleDenominator>9375000</MaxScaleDenominator>  		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill"><ogc:PropertyName>gs_color</ogc:PropertyName></CssParameter>
+                  <CssParameter name="fill-opacity"><ogc:PropertyName>gs_fill_opacity</ogc:PropertyName></CssParameter>
+                </Fill>
+              </Mark>
+              <Size>               			  
+               <ogc:Add> 		
+               <ogc:Mul> 			   
+               <ogc:Mul>                  
+                <ogc:PropertyName>gs_size</ogc:PropertyName>                 
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul>   
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul>   			   
+                 <ogc:Literal>1</ogc:Literal>  
+               </ogc:Add> 
+              </Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <Title>planets_zoom6</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+             <ogc:PropertyName>celestial_body</ogc:PropertyName>
+             <ogc:Literal>planet</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <MinScaleDenominator>2343750</MinScaleDenominator>          
+          <MaxScaleDenominator>4687500</MaxScaleDenominator>  		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill"><ogc:PropertyName>gs_color</ogc:PropertyName></CssParameter>
+                  <CssParameter name="fill-opacity"><ogc:PropertyName>gs_fill_opacity</ogc:PropertyName></CssParameter>
+                </Fill>
+              </Mark>
+              <Size>               			  
+               <ogc:Add> 		
+               <ogc:Mul> 			   
+               <ogc:Mul>      
+               <ogc:Mul>                  
+                <ogc:PropertyName>gs_size</ogc:PropertyName>                
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul>  
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>				
+               </ogc:Mul> 
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul>   
+                 <ogc:Literal>2</ogc:Literal>  
+               </ogc:Add> 
+              </Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>		
+		
+		<Rule>
+          <Title>planets_zoom7</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+             <ogc:PropertyName>celestial_body</ogc:PropertyName>
+             <ogc:Literal>planet</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <MinScaleDenominator>1171875</MinScaleDenominator>          
+          <MaxScaleDenominator>2343750</MaxScaleDenominator>  		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill"><ogc:PropertyName>gs_color</ogc:PropertyName></CssParameter>
+                  <CssParameter name="fill-opacity"><ogc:PropertyName>gs_fill_opacity</ogc:PropertyName></CssParameter>
+                </Fill>
+              </Mark>
+              <Size>               			  
+               <ogc:Add> 			  
+               <ogc:Mul> 
+               <ogc:Mul> 
+               <ogc:Mul>      
+               <ogc:Mul>                  
+                <ogc:PropertyName>gs_size</ogc:PropertyName>                
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul> 
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul>  
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul> 
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul>   
+                 <ogc:Literal>4</ogc:Literal>  
+               </ogc:Add> 
+              </Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>	
+		
+		<Rule>
+          <Title>planets_zoom8</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+             <ogc:PropertyName>celestial_body</ogc:PropertyName>
+             <ogc:Literal>planet</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <MinScaleDenominator>585937</MinScaleDenominator>          
+          <MaxScaleDenominator>1171875</MaxScaleDenominator>  		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill"><ogc:PropertyName>gs_color</ogc:PropertyName></CssParameter>
+                  <CssParameter name="fill-opacity"><ogc:PropertyName>gs_fill_opacity</ogc:PropertyName></CssParameter>
+                </Fill>
+              </Mark>
+              <Size>               			  
+               <ogc:Add> 			  
+               <ogc:Mul> 
+               <ogc:Mul> 
+               <ogc:Mul>      
+               <ogc:Mul>                
+               <ogc:Mul> 			   
+                <ogc:PropertyName>gs_size</ogc:PropertyName>                
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul> 
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul>  
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul> 
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul>   
+			    <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul>   
+                 <ogc:Literal>8</ogc:Literal>  
+               </ogc:Add> 
+              </Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>	
+        
+        <Rule>
+          <Title>moons_zoom5</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+             <ogc:PropertyName>celestial_body</ogc:PropertyName>
+             <ogc:Literal>natural satellite</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <MinScaleDenominator>4687500</MinScaleDenominator>          
+          <MaxScaleDenominator>9375000</MaxScaleDenominator>  		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill"><ogc:PropertyName>gs_color</ogc:PropertyName></CssParameter>
+                  <CssParameter name="fill-opacity"><ogc:PropertyName>gs_fill_opacity</ogc:PropertyName></CssParameter>
+                </Fill>
+              </Mark>
+              <Size>               			  
+               <ogc:Add> 		
+               <ogc:Mul> 			   
+               <ogc:Mul>                  
+                <ogc:PropertyName>gs_size</ogc:PropertyName>                 
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul>   
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul>   			   
+                 <ogc:Literal>0.5</ogc:Literal>  
+               </ogc:Add> 
+              </Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <Title>moons_zoom6</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+             <ogc:PropertyName>celestial_body</ogc:PropertyName>
+             <ogc:Literal>natural satellite</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <MinScaleDenominator>2343750</MinScaleDenominator>          
+          <MaxScaleDenominator>4687500</MaxScaleDenominator>  		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill"><ogc:PropertyName>gs_color</ogc:PropertyName></CssParameter>
+                  <CssParameter name="fill-opacity"><ogc:PropertyName>gs_fill_opacity</ogc:PropertyName></CssParameter>
+                </Fill>
+              </Mark>
+              <Size>               			  
+               <ogc:Add> 		
+               <ogc:Mul> 			   
+               <ogc:Mul>      
+               <ogc:Mul>                  
+                <ogc:PropertyName>gs_size</ogc:PropertyName>                
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul>  
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>				
+               </ogc:Mul> 
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul>   
+                 <ogc:Literal>1</ogc:Literal>  
+               </ogc:Add> 
+              </Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>		
+		
+		<Rule>
+          <Title>moons_zoom7</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+             <ogc:PropertyName>celestial_body</ogc:PropertyName>
+             <ogc:Literal>natural satellite</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <MinScaleDenominator>1171875</MinScaleDenominator>          
+          <MaxScaleDenominator>2343750</MaxScaleDenominator>  		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill"><ogc:PropertyName>gs_color</ogc:PropertyName></CssParameter>
+                  <CssParameter name="fill-opacity"><ogc:PropertyName>gs_fill_opacity</ogc:PropertyName></CssParameter>
+                </Fill>
+              </Mark>
+              <Size>               			  
+               <ogc:Add> 			  
+               <ogc:Mul> 
+               <ogc:Mul> 
+               <ogc:Mul>      
+               <ogc:Mul>                  
+                <ogc:PropertyName>gs_size</ogc:PropertyName>                
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul> 
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul>  
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul> 
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul>   
+                 <ogc:Literal>2.5</ogc:Literal>  
+               </ogc:Add> 
+              </Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>	
+        
+		<Rule>
+          <Title>moons_zoom8</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+             <ogc:PropertyName>celestial_body</ogc:PropertyName>
+             <ogc:Literal>natural satellite</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <MinScaleDenominator>585937</MinScaleDenominator>          
+          <MaxScaleDenominator>1171875</MaxScaleDenominator>   		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill"><ogc:PropertyName>gs_color</ogc:PropertyName></CssParameter>
+                  <CssParameter name="fill-opacity"><ogc:PropertyName>gs_fill_opacity</ogc:PropertyName></CssParameter>
+                </Fill>
+              </Mark>
+              <Size>               			  
+               <ogc:Add> 			  
+               <ogc:Mul> 
+               <ogc:Mul> 
+               <ogc:Mul>      
+               <ogc:Mul>          
+               <ogc:Mul>  			   
+                <ogc:PropertyName>gs_size</ogc:PropertyName>                
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul> 
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul>  
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul> 
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul>  
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul> 			   
+                 <ogc:Literal>5</ogc:Literal>  
+               </ogc:Add> 
+              </Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>	
+		
+        <Rule>
+          <Title>asteroid_zoom5</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+             <ogc:PropertyName>celestial_body</ogc:PropertyName>
+             <ogc:Literal>asteroid</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <MinScaleDenominator>4687500</MinScaleDenominator>          
+          <MaxScaleDenominator>9375000</MaxScaleDenominator>  		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill"><ogc:PropertyName>gs_color</ogc:PropertyName></CssParameter>
+                  <CssParameter name="fill-opacity"><ogc:PropertyName>gs_fill_opacity</ogc:PropertyName></CssParameter>
+                </Fill>
+              </Mark>
+              <Size>               			  
+               <ogc:Add> 		
+               <ogc:Mul> 			   
+               <ogc:Mul>                  
+                <ogc:PropertyName>gs_size</ogc:PropertyName>                 
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul>   
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul>   			   
+                 <ogc:Literal>1</ogc:Literal>  
+               </ogc:Add> 
+              </Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+        <Rule>
+          <Title>asteroid_zoom6</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+             <ogc:PropertyName>celestial_body</ogc:PropertyName>
+             <ogc:Literal>asteroid</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <MinScaleDenominator>2343750</MinScaleDenominator>          
+          <MaxScaleDenominator>4687500</MaxScaleDenominator>  		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill"><ogc:PropertyName>gs_color</ogc:PropertyName></CssParameter>
+                  <CssParameter name="fill-opacity"><ogc:PropertyName>gs_fill_opacity</ogc:PropertyName></CssParameter>
+                </Fill>
+              </Mark>
+              <Size>               			  
+               <ogc:Add> 		
+               <ogc:Mul> 			   
+               <ogc:Mul>      
+               <ogc:Mul>                  
+                <ogc:PropertyName>gs_size</ogc:PropertyName>                
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul>  
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>				
+               </ogc:Mul> 
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul>   
+                 <ogc:Literal>2</ogc:Literal>  
+               </ogc:Add> 
+              </Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>		
+		
+		<Rule>
+          <Title>asteroid_zoom7</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+             <ogc:PropertyName>celestial_body</ogc:PropertyName>
+             <ogc:Literal>asteroid</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <MinScaleDenominator>1171875</MinScaleDenominator>          
+          <MaxScaleDenominator>2343750</MaxScaleDenominator>  		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill"><ogc:PropertyName>gs_color</ogc:PropertyName></CssParameter>
+                  <CssParameter name="fill-opacity"><ogc:PropertyName>gs_fill_opacity</ogc:PropertyName></CssParameter>
+                </Fill>
+              </Mark>
+              <Size>               			  
+               <ogc:Add> 			  
+               <ogc:Mul> 
+               <ogc:Mul> 
+               <ogc:Mul>      
+               <ogc:Mul>                  
+                <ogc:PropertyName>gs_size</ogc:PropertyName>                
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul> 
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul>  
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul> 
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul>   
+                 <ogc:Literal>4</ogc:Literal>  
+               </ogc:Add> 
+              </Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>	
+		
+		<Rule>
+          <Title>asteroid_zoom8</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+             <ogc:PropertyName>celestial_body</ogc:PropertyName>
+             <ogc:Literal>asteroid</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <MinScaleDenominator>585937</MinScaleDenominator>          
+          <MaxScaleDenominator>1171875</MaxScaleDenominator>  		  
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill"><ogc:PropertyName>gs_color</ogc:PropertyName></CssParameter>
+                  <CssParameter name="fill-opacity"><ogc:PropertyName>gs_fill_opacity</ogc:PropertyName></CssParameter>
+                </Fill>
+              </Mark>
+              <Size>               			  
+               <ogc:Add> 			  
+               <ogc:Mul> 
+               <ogc:Mul> 
+               <ogc:Mul>      
+               <ogc:Mul>  
+               <ogc:Mul> 			   
+                <ogc:PropertyName>gs_size</ogc:PropertyName>                
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul> 
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul>  
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul> 
+                <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul>   
+			   <ogc:PropertyName>gs_size_scale</ogc:PropertyName>
+               </ogc:Mul>
+                 <ogc:Literal>8</ogc:Literal>  
+               </ogc:Add> 
+              </Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+        
+        <Rule>
+          <Title>comet_zoom5</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+             <ogc:PropertyName>celestial_body</ogc:PropertyName>
+             <ogc:Literal>comet</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <MinScaleDenominator>4687500</MinScaleDenominator>          
+          <MaxScaleDenominator>9375000</MaxScaleDenominator>  		  
+		  <PointSymbolizer uom="http://www.opengeospatial.org/se/units/pixel">
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="comet/${gs_color_halo}.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Opacity>
+                <ogc:PropertyName>0.4</ogc:PropertyName>
+              </Opacity>			
+              <Size>8</Size>
+			  <rotation><ogc:PropertyName>gs_rotation</ogc:PropertyName></rotation>
+            </Graphic>
+          </PointSymbolizer>	  
+        </Rule>
+
+        <Rule>
+          <Title>comet_zoom6</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+             <ogc:PropertyName>celestial_body</ogc:PropertyName>
+             <ogc:Literal>comet</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <MinScaleDenominator>2343750</MinScaleDenominator>          
+          <MaxScaleDenominator>4687500</MaxScaleDenominator>  		  
+		  <PointSymbolizer uom="http://www.opengeospatial.org/se/units/pixel">
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="comet/${gs_color_halo}.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Opacity>
+                <ogc:PropertyName>0.6</ogc:PropertyName>
+              </Opacity>			
+              <Size>16</Size>
+			  <rotation><ogc:PropertyName>gs_rotation</ogc:PropertyName></rotation>
+            </Graphic>
+          </PointSymbolizer>	  
+        </Rule>		
+		
+		<Rule>
+          <Title>comet_zoom7</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+             <ogc:PropertyName>celestial_body</ogc:PropertyName>
+             <ogc:Literal>comet</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <MinScaleDenominator>1171875</MinScaleDenominator>          
+          <MaxScaleDenominator>2343750</MaxScaleDenominator>  		  
+		  <PointSymbolizer uom="http://www.opengeospatial.org/se/units/pixel">
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="comet/${gs_color_halo}.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Opacity>
+                <ogc:PropertyName>0.8</ogc:PropertyName>
+              </Opacity>			
+              <Size>32</Size>
+			  <rotation><ogc:PropertyName>gs_rotation</ogc:PropertyName></rotation>
+            </Graphic>
+          </PointSymbolizer>	  
+        </Rule>	
+		
+		<Rule>
+          <Title>comet_zoom8</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+             <ogc:PropertyName>celestial_body</ogc:PropertyName>
+             <ogc:Literal>comet</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <MinScaleDenominator>585937</MinScaleDenominator>          
+          <MaxScaleDenominator>1171875</MaxScaleDenominator>  		  
+		  <PointSymbolizer uom="http://www.opengeospatial.org/se/units/pixel">
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="comet/${gs_color_halo}.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Opacity>
+                <ogc:PropertyName>0.9</ogc:PropertyName>
+              </Opacity>			
+              <Size>64</Size>
+			  <rotation><ogc:PropertyName>gs_rotation</ogc:PropertyName></rotation>
+            </Graphic>
+          </PointSymbolizer>	  
+        </Rule>	
+		
+		<Rule>
+          <Title>jump_point_zoom5</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+             <ogc:PropertyName>celestial_body</ogc:PropertyName>
+             <ogc:Literal>jump point</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <MinScaleDenominator>4687500</MinScaleDenominator>          
+          <MaxScaleDenominator>9375000</MaxScaleDenominator>		  
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="other/jump_point.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Opacity>
+                <ogc:PropertyName>0.3</ogc:PropertyName>
+              </Opacity>			
+              <Size>4</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>		
+		<Rule>
+          <Title>jump_point_zoom6</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+             <ogc:PropertyName>celestial_body</ogc:PropertyName>
+             <ogc:Literal>jump point</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <MinScaleDenominator>2343750</MinScaleDenominator>          
+          <MaxScaleDenominator>4687500</MaxScaleDenominator> 		  
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="other/jump_point.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Opacity>
+                <ogc:PropertyName>1</ogc:PropertyName>
+              </Opacity>			
+              <Size>4</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+		<Rule>
+          <Title>jump_point_zoom7</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+             <ogc:PropertyName>celestial_body</ogc:PropertyName>
+             <ogc:Literal>jump point</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <MinScaleDenominator>1171875</MinScaleDenominator>          
+          <MaxScaleDenominator>2343750</MaxScaleDenominator>		  
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="other/jump_point.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Opacity>
+                <ogc:PropertyName>1</ogc:PropertyName>
+              </Opacity>			
+              <Size>6</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+		<Rule>
+          <Title>jump_point_zoom8</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+             <ogc:PropertyName>celestial_body</ogc:PropertyName>
+             <ogc:Literal>jump point</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <MinScaleDenominator>585937</MinScaleDenominator>          
+          <MaxScaleDenominator>1171875</MaxScaleDenominator>   
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="other/jump_point.png" />
+                <Format>image/png</Format>
+              </ExternalGraphic>
+              <Opacity>
+                <ogc:PropertyName>1</ogc:PropertyName>
+              </Opacity>			
+              <Size>8</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+
+		<Rule>
+          <Title>space_station_zoom5</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+             <ogc:PropertyName>celestial_body</ogc:PropertyName>
+             <ogc:Literal>celestial station</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <MinScaleDenominator>4687500</MinScaleDenominator>          
+          <MaxScaleDenominator>9375000</MaxScaleDenominator>	  
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="other/celestial_station.svg" />
+                <Format>image/svg+xml</Format>
+              </ExternalGraphic>
+              <Opacity>
+                <ogc:PropertyName>1</ogc:PropertyName>
+              </Opacity>			
+              <Size>3</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>	
+		<Rule>
+          <Title>space_station_zoom6</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+             <ogc:PropertyName>celestial_body</ogc:PropertyName>
+             <ogc:Literal>celestial station</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <MinScaleDenominator>2343750</MinScaleDenominator>          
+          <MaxScaleDenominator>4687500</MaxScaleDenominator>	  
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="other/celestial_station.svg" />
+                <Format>image/svg+xml</Format>
+              </ExternalGraphic>
+              <Opacity>
+                <ogc:PropertyName>1</ogc:PropertyName>
+              </Opacity>			
+              <Size>5</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>		
+		<Rule>
+          <Title>space_station_zoom7</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+             <ogc:PropertyName>celestial_body</ogc:PropertyName>
+             <ogc:Literal>celestial station</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <MinScaleDenominator>1171875</MinScaleDenominator>          
+          <MaxScaleDenominator>2343750</MaxScaleDenominator>	  
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="other/celestial_station.svg" />
+                <Format>image/svg+xml</Format>
+              </ExternalGraphic>
+              <Opacity>
+                <ogc:PropertyName>1</ogc:PropertyName>
+              </Opacity>				
+              <Size>7</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+		<Rule>
+          <Title>space_station_zoom8</Title>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+             <ogc:PropertyName>celestial_body</ogc:PropertyName>
+             <ogc:Literal>celestial station</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>  
+          <MinScaleDenominator>585937</MinScaleDenominator>          
+          <MaxScaleDenominator>1171875</MaxScaleDenominator> 	  
+          <PointSymbolizer>
+            <Graphic>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="other/celestial_station.svg" />
+                <Format>image/svg+xml</Format>
+              </ExternalGraphic>
+              <Opacity>
+                <ogc:PropertyName>1</ogc:PropertyName>
+              </Opacity>			
+              <Size>10</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>			
+
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>

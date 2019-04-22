@@ -1,0 +1,15 @@
+<layer>
+  <name>starmap_object_visible</name>
+  <id>LayerInfoImpl--2e770897:167cc442dcf:-7fe6</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-557aeb68:16814960e59:-6602</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--2e770897:167cc442dcf:-7fe7</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

@@ -1,0 +1,32 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--2e770897:167cc442dcf:-7ff1</id>
+  <name>starmap_grid</name>
+  <mode>SINGLE</mode>
+  <title>starmap_grid</title>
+  <workspace>
+    <id>WorkspaceInfoImpl-65f01602:1678c7d20d1:-8000</id>
+  </workspace>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--2e770897:167cc442dcf:-7ffb</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--2e770897:167cc442dcf:-7ffb</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--2e770897:167cc442dcf:-7ff3</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--2e770897:167cc442dcf:-7ff2</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>-2.0226642E7</minx>
+    <maxx>2.0226642E7</maxx>
+    <miny>-2.0249458E7</miny>
+    <maxy>2.0249458E7</maxy>
+    <crs class="projected">EPSG:3857</crs>
+  </bounds>
+</layerGroup>

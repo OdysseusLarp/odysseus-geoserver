@@ -1,0 +1,15 @@
+<layer>
+  <name>starmap_grid_alert</name>
+  <id>LayerInfoImpl--2ffc0acd:16b849756c8:-7db1</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-44ab04b0:16b848cf425:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--2ffc0acd:16b849756c8:-7db2</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

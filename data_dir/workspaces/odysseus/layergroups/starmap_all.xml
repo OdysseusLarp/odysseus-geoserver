@@ -19,11 +19,11 @@
     <published type="layer">
       <id>LayerInfoImpl-2e1170c6:169da1ee64b:-42d4</id>
     </published>
-    <published type="layerGroup">
-      <id>LayerGroupInfoImpl--2e770897:167cc442dcf:-7ff1</id>
-    </published>
     <published type="layer">
       <id>LayerInfoImpl-557aeb68:16814960e59:-3e3</id>
+    </published>
+    <published type="layerGroup">
+      <id>LayerGroupInfoImpl--2e770897:167cc442dcf:-7ff1</id>
     </published>
   </publishables>
   <styles>

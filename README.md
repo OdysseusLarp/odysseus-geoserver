@@ -20,7 +20,7 @@ npm run db:seed
 
 ## Run docker in dev
 
-`docker run -it -p 8080:8080 --name odysseus-gs --network odysseus-backend_odysseus-dev-net -d odysseus-geoserver:latest`
+`docker run -it -p 8090:8080 --name odysseus-gs --network odysseus-backend_odysseus-dev-net -d odysseus-geoserver:latest`
 
 It takes a while to start geoserver
 
@@ -30,7 +30,7 @@ If no layers doesn't shown, use absolute path in -v
 
 ## Run docker in prod
 
-`docker run -it -p 8080:8080 --name odysseus-gs --network odysseus-backend_odysseus-net -d odysseus-geoserver:latest`
+`docker run -it -p 8090:8080 --name odysseus-gs --network odysseus-backend_odysseus-net -d odysseus-geoserver:latest`
 
 ## Stop docker
 	docker stop odysseus-gs
